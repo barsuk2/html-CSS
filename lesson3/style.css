@@ -1,0 +1,41 @@
+.qwe {
+    color: chocolate;
+}
+h3 {
+    background-color: darkorchid;
+    color: floralwhite;
+}
+
+.header {
+    color: darkorchid;
+    
+}
+h6 {
+    border: 2px solid black
+}
+.block {
+       width: 90%;
+    height: 300px;
+    border:1px brown solid;
+    background-color: coral;
+    background-image: url(../img/bug.jpg);
+    background-size: cover;
+    background-position: center;
+    
+}
+.list {
+    list-style-type: disc;
+}
+.heading {text-align: center;
+}
+
+body{
+    font-family: sans-serif ;
+}
+.text, 
+.li1{
+    font-family: serif;
+    color: blue;
+      
+}
+
