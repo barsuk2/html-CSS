@@ -1,0 +1,124 @@
+* {margin: 0px;
+padding: 0px;}
+.header {
+    background-color: rgb(196, 194, 194);
+    padding: 10px;
+    border: 5px solid fuchsia;
+    margin: 25px 5px;
+}
+.content {
+    background-color: rgb(235, 231, 231);
+    margin: 5px;
+    border: 5px solid fuchsia;
+    padding: 10px;
+
+
+}
+.futter { 
+    margin-left: 5px;
+    border: 5px solid fuchsia;
+    padding: 10px;
+    background-color: grey;
+    clear: both;
+}
+.Text-red {
+    color: red;
+}
+.block {
+    width: 150px;
+    height: 150px;
+    border: 1px solid #000;
+    float: left;
+    margin: 10px;
+
+}
+.Hef {
+    border: 1px solid red;
+    overflow: hidden;
+}
+.menu {
+    margin: 5px;
+}
+.menu__list {
+    list-style-type: none;
+    border: 1px solid #000;
+    width: 200px;
+    height: 35px;
+    text-align: center;
+    line-height: 35px;
+}
+
+.menu__list:first-child{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.menu__list:last-child{
+    border-bottom-left-radius: 10px;border-bottom-right-radius: 10px;
+}
+
+.menu__list:hover .menu__link {
+    text-decoration: none;
+}
+
+
+.menu__link:hover {
+    color: red;
+}
+.menu__link:active {
+    color: green;
+}
+
+.menu__li:nth-child(3)::after {
+    content: ' super new';
+    color: indigo;
+}
+
+.menu__li:before {
+    content: '* ';
+    color: red;
+}
+.menu__li {
+list-style-type: none;
+}
+
+.menu__li:hover::after {
+    content: ' хуй';
+    color: salmon;
+}
+
+.product {
+    border: 1px solid #000;
+    /* height: 250px; */
+    width: 250px;
+    margin: 10px;
+}
+.product_img {
+    height: 200px;
+    width: 250px;
+    background-color: springgreen;
+}
+.poroduct_text {
+    padding: 5px;
+    font-family: sans-serif;
+    font-size: 12px;
+}
+
+.product_img:hover {
+    background-color: violet;
+}
+
+.prod_new::after {
+    content: ' NEW';
+    color: red;
+}
+.text::first-letter {
+    color: red;
+    font-size: 24px;
+}
+
+.text::first-line {
+    color: royalblue;
+}
+
+.text:d
