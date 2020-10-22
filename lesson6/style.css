@@ -1,0 +1,255 @@
+* {
+    margin: 0;padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.top {
+    height: 768px;
+    background: linear-gradient(0deg, #EBF3FB 8.84%, rgba(152, 195, 232, 0) 31.12%);
+}
+
+.heading-mini
+{
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.05em;
+    margin-bottom: 14px;
+}
+.card {
+    width: 359px;
+    padding: 44px 32px;
+    box-sizing: border-box;
+    background: #FFFFFF;
+    box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    
+
+}
+.card-img {
+align-items: center;
+margin-bottom: 51px;
+}
+
+.card-link {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 30px;
+    letter-spacing: 0.05em;
+    color: #5A98D0;
+    text-decoration: none;
+}
+
+
+.a1 {
+    /* align-self: flex-end; */
+}
+
+.a3 {
+    /* align-self: center; */
+}
+
+.card-box {
+    display: flex;
+    justify-content: space-between;
+    /* flex-wrap: wrap; */
+    padding-top: 64px;
+    /* height: 500px; */
+}
+
+.container {
+    width: 1000px;
+    margin: 0 auto;
+}
+.container__top {
+    width: 1000px;
+    margin: 0 auto;
+    background-image: url(img/illustration.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+
+.header {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 42px;
+}
+.top-info {
+    width: 504px;
+    padding-top: 115px;
+}
+
+.text {
+    /* font-style: normal; */
+    /* font-weight: normal; */
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #1F3F68;
+    opacity: 0.6;
+    letter-spacing: 0.05em;
+}
+
+.text__bottom {
+    color: #FFFFFF;
+}
+
+.text__copyright {
+color: #FFFFFF;
+opacity: 0.4;
+}
+
+.heading {
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 46px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #000000;
+}
+.heading__futter {
+    color: #FFFFFF;
+    text-align: start;
+    margin-bottom: 32px;
+}
+.futter__buttom{
+    background: #5A98D0;
+    border-radius: 0px;
+}
+.what-we-do {
+    padding: 64px;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.top_heading {
+font-weight: 300;
+font-size: 64px;
+line-height: 74px;
+letter-spacing: 0.04em;
+color: #1F3F68;
+margin-bottom: 32px;
+}
+
+.top-button {
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    background: #5A98D0;
+    box-shadow: 5px 10px 20px rgba(53, 110, 173, 0.2);
+    border-radius: 10px;
+    padding: 15px 50px;
+    text-decoration:none;
+    display: inline-block;
+    margin-top: 71px;
+}
+.futter__button{
+    border-radius: 0px;
+    margin-top: 165px;
+}
+.project {
+    width: 1000px;
+    margin: 0 auto;
+}
+.text-project{
+    color: #222222;
+    width: 75%;
+    margin: 32px auto 64px;
+    opacity: 1;
+    text-align: center;
+}
+.project {
+
+}
+.project__item {
+    position: relative;
+    background: linear-gradient(308.85deg, rgba(66, 165, 245, 0.4) -1.71%, rgba(21, 101, 192, 0.6) 74.54%);
+    flex-grow: 1;
+    border-radius: 10px;
+
+}
+.project__item__margin {
+    margin-right: 32px;
+}
+
+.project__img {
+    width: 100%;
+}
+
+.project__parent {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 32px;
+}
+
+.project__text{
+    font-size: 32px;
+    line-height: 46px;
+    text-align: right;
+    letter-spacing: 0.05em;
+    position: absolute;
+    top: 64px;
+    right: 64px;
+    color: #FFFFFF;
+}
+.project__text2{
+    font-size: 32px;
+    line-height: 46px;
+    text-align: right;
+    letter-spacing: 0.05em;
+    position: absolute;
+    top: 32px;
+    left: 32px;
+    color: #FFFFFF;
+
+}
+
+.bottom {
+    background: #316099;
+    margin-top: 112px;
+}
+.futter__item {
+padding-top: 91px ;
+}
+.futter__top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.futter__item {
+    width: 504px;
+    padding-top: 91px;
+    /* padding-left: 113px; */
+}
+.futter__line {
+    opacity: 0.4;
+    border: 1px solid #FFFFFF;
+    margin-top: 95px;
+}
+.futter__phone {
+    display: block;
+    margin-right: 19px;
+}
+.futter__bottom {
+    height: 200px;
+}
+
+.futter__list {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 64px;
+
+}
+.copyright {
+margin-top: 64px;
+}
