@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-size: xx-large;
+    font-family: sans-serif;
+}
+.wrapper {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.head {
+    height: 100px;
+    background: cornflowerblue;
+}
+
+.futter {
+    height: 100px;
+    background: darkgray;
+}
+.box {
+    margin: 10px;
+}
+
+
+.top {
+    flex-grow: 1;
+}
