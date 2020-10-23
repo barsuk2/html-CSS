@@ -9,7 +9,8 @@ body {
 
 .menu-box {
     height: 200px;
-    background-color: green;
+    background-color:orangered;
+    padding: 10px;
 }
 .menu {
     list-style-type: none;
@@ -22,7 +23,10 @@ body {
 }
 .href {
     text-decoration: none;
+    text-transform: uppercase;
+    color: seashell;
 }
+
 
 .p__menu {
     display: none;
@@ -34,6 +38,10 @@ body {
 
 
 @media (max-width: 768px) and (min-width: 375px){
+    .menu-box{
+        background-color: orange;
+    }
+    
     .menu-item {
         display: none;
     }
@@ -46,6 +54,9 @@ body {
     
 }
 @media (max-width: 375px){
+    .menu-box{
+        background-color: peru;
+    }
     .menu-item {
         display: none;
     }
