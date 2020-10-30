@@ -1,0 +1,41 @@
+$bd: 3px solid yellow;
+$width: 1200px;
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+}
+
+body {
+}
+
+body {
+  font-family: serif;
+}
+
+
+.header {
+  border: 1px solid #000;
+  background-color: forestgreen;
+  display: flex;
+  justify-content: space-around;
+  height: 50vh;
+
+  .block-l {
+    flex-basis: border-box;
+    border: $bd;
+    box-shadow: inset 2px 2px 5px rgba(154, 147, 140, 0.5), 1px 1px 5px rgba(255, 255, 255, 1);
+
+  }
+
+  .block-r {
+    //flex-shrink: 1;
+    border: $bd;
+    font-size: 15px;
+    font-weight: 900;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+  }
+}
