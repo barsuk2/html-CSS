@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+.my_container {
+  width: 900px;
+  height: 600px;
+  background-image: url("img/tour.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  border: 1px solid #000;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column; }
+
+.top {
+  border: 1px solid #000;
+  height: 80px;
+  background: #4eb1ee;
+  opacity: 0.9;
+  padding: 10px; }
+
+.my_content {
+  border: 1px solid #000;
+  flex-grow: 1;
+  height: 400px;
+  text-decoration: none; }
+
+.cnt {
+  padding: 20px 50px; }
+
+.footer {
+  height: 100px;
+  padding: 20px;
+  background: #67bbef;
+  opacity: 0.9;
+  display: flex;
+  flex-direction: column;
+  padding: 20px; }
+
+.bt {
+  width: 50%;
+  margin: 10px auto; }
