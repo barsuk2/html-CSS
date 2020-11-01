@@ -1,19 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-<<<<<<< HEAD
-  <component name="ProjectTasksOptions" suppressed-tasks="SCSS">
-=======
   <component name="ProjectTasksOptions">
->>>>>>> 6a7d023eb3a33528870f943daab9081e568c347b
     <TaskOptions isEnabled="true">
       <option name="arguments" value="$FileName$ $FileNameWithoutExtension$.css" />
       <option name="checkSyntaxErrors" value="true" />
       <option name="description" />
-<<<<<<< HEAD
       <option name="exitCodeBehavior" value="ERROR" />
-=======
-      <option name="exitCodeBehavior" value="NEVER" />
->>>>>>> 6a7d023eb3a33528870f943daab9081e568c347b
       <option name="fileExtension" value="scss" />
       <option name="immediateSync" value="true" />
       <option name="name" value="SCSS" />
@@ -22,11 +14,7 @@
         <array />
       </option>
       <option name="outputFromStdout" value="false" />
-<<<<<<< HEAD
       <option name="program" value="$PROJECT_DIR$/../../../../Python37/Scripts/pysass" />
-=======
-      <option name="program" value="$PROJECT_DIR$/../../../../Python37/Scripts/pysassc" />
->>>>>>> 6a7d023eb3a33528870f943daab9081e568c347b
       <option name="runOnExternalChanges" value="true" />
       <option name="scopeName" value="Project Files" />
       <option name="trackOnlyRoot" value="true" />

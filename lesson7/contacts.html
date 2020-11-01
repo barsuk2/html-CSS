@@ -8,18 +8,19 @@
     <link rel="stylesheet" href="style.css">
     <style>
         div {
-            /* border: 1px solid #000; */
+            /*border: 1px solid #000;*/
         }
     </style>
 </head>
 
 
 <body>
+<!--шапка-->
 <div class="cont_top">
     <div class="container ">
         <ul class="header">
             <li><a href="index.html"><img src="img/logo.svg" alt="logo"></a></li>
-            <li><a href="contacts.html"><img src="img/Vector.svg" alt="Contact" srcset=""></a></li>
+            <li><a href="contacts.html"><img src="img/Vector.svg" alt="Contact" ></a></li>
         </ul>
     </div>
     <div class="top__info_cont">
@@ -28,12 +29,12 @@
             libero in culpa ex
             doloribus praesentium </p>
     </div>
-
 </div>
+<!--тело-->
 <div class="container cont-body">
     <div class="cont__box ">
-        <div class="cont__card cont__left">
-            <img src="img/contact.svg" alt="">
+        <div class="cont__left">
+            <img class="cont-img" src="img/contact.svg" alt="">
             <h4 class="heading-mini cont__heading">ADDRESS</h4>
             <p class="text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi voluptatem ipsum
                 deserunt nulla molestias rerum ipsa quidem! Veritatis, provident a.</p>
@@ -52,29 +53,31 @@
                 <li class="phone"><img class="cont__icons" src="img/postal.svg" alt="post">hello.site@gmail.com</li>
             </ul>
         </div>
-        <div class="cont__card cont__right">
-            <h4 class="heading-mini cont__heading">SEND US MESSAGE</h4>
-            <form action="">
+        <div class="cont__right">
+            <h4 class="heading-mini cont__heading send">SEND US MESSAGE</h4>
+            <form action="q">
                 <p class="text text__form">Full Name</p>
-                <input class="cont__form" type="text" name="name" id="" placeholder="Your Name">
+                <input class="cont__form" type="text"  placeholder="Your Name">
                 <p class="text text__form">Email</p>
-                <input class="cont__form" type="email" name="" id="" placeholder="Your Email">
-                <p class="text text__form ">Message</p>
-                <textarea class="cont__form text__form__message" name="" id="" cols="30" rows="10"
-                          placeholder="Message"></textarea>
-                <a class="cont__button" href="">SUBMIT</a>
+                <input class="cont__form" type="email"  placeholder="Your Email">
+                <p class="text text__form ">Your Message</p>
+
+                <textarea class="cont__form message__form"  cols="30" rows="10" placeholder="Your Message"></textarea>
+
+
+                <div class="cont__button">SUBMIT</div>
             </form>
         </div>
     </div>
-</div></div>
+</div>
 <!--MAP-->
 <div class="container">
-    <img class="map" src="img/map.png" alt="map">
+    <a href="#"><img class="map" src="img/map.png" alt="map"></a>
 </div>
 
 <!--footer-->
 
-<div class="bottom">
+<div class="bottom footer">
     <div class="container container__bottom">
         <div class="footer__item">
             <h3 class="heading heading__footer">Intersted to woek with our team?</h3>
@@ -84,20 +87,21 @@
         </div>
         <a class="top-button footer__button" href="">Let’s Talk</a>
     </div>
-    <!---->
+
     <div class="container">
-        <hr class="footer__line">
         <div class="footer__contacts">
             <ul class="footer__list">
-                <li class="text text__bottom">A. Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
-                <li class="text text__bottom">T. +7-812-7313-4321</li>
-                <li class="text text__bottom">E. hello.site@gmail.com</li>
+                <li class="text text__bottom A">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+                <li class="text text__bottom T">+7-812-7313-4321</li>
+                <li class="text text__bottom E">hello.site@gmail.com</li>
             </ul>
         </div>
         <div class="copyright">
             <p class="text text__copyright">2020 All rights reserved.</p>
         </div>
+
     </div>
+
 </div>
 </body>
 
