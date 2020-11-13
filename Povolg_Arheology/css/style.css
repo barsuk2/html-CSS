@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; }
+
+.container {
+  border: 1px solid #000;
+  margin: 0 auto; }
+
+.header {
+  margin: 0 auto; }
+
+.email {
+  text-decoration: none;
+  color: white; }
+
+.header_contact {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-between;
+  height: 80px;
+  border: 1px solid #000;
+  align-items: center;
+  background-color: #006601;
+  color: white;
+  padding: 0 50px; }
+
+.social {
+  width: 40px; }
+
+.text {
+  letter-spacing: 0.05em; }
+
+.phone {
+  font-size: 16px; }
+
+.menu_contact {
+  padding: 0 50px;
+  height: 200px;
+  border: 1px solid #000;
+  background-color: white;
+  display: flex;
+  align-items: center; }
+
+.left_menu {
+  width: 500px;
+  flex-grow: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+
+.right_menu {
+  flex-grow: 1;
+  display: flex;
+  justify-content: right; }
+
+.label {
+  margin-left: 20px;
+  font-size: 24px;
+  font-weight: bold; }
+
+.button_menu {
+  margin: 5px;
+  padding: 10px 15px;
+  block-size: border-box;
+  background-color: #fff;
+  border-radius: 10px;
+  text-decoration: none;
+  color: #006601;
+  font-size: 18px;
+  font-weight: bold; }
+
+.button_menu:hover {
+  border: 3px solid #006601;
+  padding: 7px 12px; }
+
+.label {
+  color: #002a00; }
+
+.about_us {
+  height: 300px;
+  background-image: url(../img/archaeology-77741_1280.jpg);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  padding: 50px;
+  letter-spacing: 0.09em;
+  line-height: 32px; }
+
+.content {
+  margin: 20px auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around; }
+
+.card {
+  width: 300px;
+  height: 500px;
+  border: 1px solid #000;
+  padding: 20px; }
+
+.img_cart {
+  width: 260px;
+  height: 250px;
+  background-color: #006601;
+  border: 3px solid red; }
